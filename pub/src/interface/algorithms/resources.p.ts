@@ -1,6 +1,6 @@
 import * as pt from "pareto-core-types"
 
-export type ACall = (
+export type FCall = (
     $: string,
     $i: {
         readonly onError: (
